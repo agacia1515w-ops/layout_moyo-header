@@ -3,9 +3,9 @@
 }
 
 body {
-    
+
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .header {
@@ -24,10 +24,12 @@ body {
 .nav__list {
   list-style: none;
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .nav__item:not(:last-child) {
-  margin-right: 30px; /* brak marginesu po ostatnim elemencie */
+  margin-right: 30px; 
 }
 
 .nav__link {
