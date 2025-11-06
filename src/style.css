@@ -3,6 +3,7 @@
 }
 
 body {
+    
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
@@ -16,7 +17,7 @@ body {
   background-color: #fff;
 }
 
-.logo img {
+.logo__img {
   height: 40px;
 }
 
